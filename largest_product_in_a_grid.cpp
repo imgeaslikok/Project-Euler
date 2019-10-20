@@ -86,8 +86,8 @@ int main(){
 	//checking the second direction of diagonally
 	for(i=0; i<row-3; i++){
 		for(j=0; j<column-3; j++){
-		    test = matrix[i][j]*matrix[i+1][j-1]*matrix[i+2][j-2]*matrix[i+3][j-3];
-			if (test>max)
+			test = matrix[i][j]*matrix[i+1][j-1]*matrix[i+2][j-2]*matrix[i+3][j-3];
+		        if (test>max)
 			max=test;
 		}					
 	}
